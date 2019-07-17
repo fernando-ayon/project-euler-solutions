@@ -1,0 +1,24 @@
+{
+  "name": "project-euler-solutions",
+  "version": "1.0.0",
+  "description": "Solutions to the famous Project Euler problems",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fernhub/project-euler-solutions.git"
+  },
+  "keywords": [
+    "euler-project",
+    "euler-solutions",
+    "javascript"
+  ],
+  "author": "Fernando AYON",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/fernhub/project-euler-solutions/issues"
+  },
+  "homepage": "https://github.com/fernhub/project-euler-solutions#readme"
+}
