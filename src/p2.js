@@ -10,21 +10,19 @@
  */
 
 function getResult(limit) {
-	let sum = 2;
+  let sum = 2;
+  let k = 0;
+  let i = 1;
+  let j = 2;
+  // fibonacci without recursion
+  while (k < limit) {
+    k = i + j;
+    i = j;
+    j = k;
 
-    let k = 0;
-    let i = 1;
-    let j = 2;
-
-	// fibonacci without recursion
-    while (k < limit) {
-    	k = i + j;
-        i = j;
-        j = k;
-
-       	if (k % 2 === 0) {
-       		sum += k;
-        }
+   	if (k % 2 === 0) {
+      sum += k;
     }
-    console.log(sum);
+  }
+  console.log(sum);
 }
